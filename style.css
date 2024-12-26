@@ -1,0 +1,191 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Cor de fundo suave e romântica */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff4081; /* Rosa suave */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header .logo h1 {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Seção de Introdução */
+.intro {
+    background-color: #f8bbd0;
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.intro h2 {
+    font-size: 48px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.intro .btn {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.intro .btn:hover {
+    background-color: #f50057;
+}
+
+/* Seção da Surpresa */
+.surpresa {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.surpresa h2 {
+    font-size: 36px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.surpresa p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Contêiner do GIF */
+.gif-container img {
+    max-width: 100%;
+    width: 300px;
+    margin: 20px 0;
+}
+
+/* Nova seção: Nossa História */
+.historia {
+    background-color: #ffccbc;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.historia h2 {
+    font-size: 36px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+/* Nova seção: Memórias Felizes */
+.memorias {
+    background-color: #f8bbd0;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.memorias h2 {
+    font-size: 36px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.memorias ul {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.memorias ul li {
+    margin: 15px 0;
+}
+
+/* Nova seção: Música Especial */
+.musica {
+    background-color: #ffccbc;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.musica h2 {
+    font-size: 36px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+/* Seção de Contato */
+.contato {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contato .btn-telefone {
+    background-color: #fff;
+    color: #ff4081;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.contato .btn-telefone:hover {
+    background-color: #f50057;
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer span {
+    font-weight: bold;
+    color: #ffcc80;
+}
